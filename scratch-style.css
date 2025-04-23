@@ -27,10 +27,16 @@ h1 {
   margin: 10px auto;
 }
 
-ol, ul {
-  margin-left: 30px;
+ol {
+  margin-left: 20px;
   font-size: 16px;
 }
+
+ol ul {
+  margin-left: 10px;
+  list-style-type: disc;
+}
+
 
 iframe {
   display: block;
