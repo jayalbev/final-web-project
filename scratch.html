@@ -6,12 +6,55 @@
   <link rel="stylesheet" href="scratch-style.css">
 </head>
 <body>
+
+  <a id="top"></a>
   <h1>Welcome to My Scratch Page</h1>
+  <p>This page is built from scratch using HTML and CSS.</p>
 
-  <p>This page is built completely from scratch using HTML and my own CSS.</p>
-<h2>My Dog</h2>
-<img src="winstonphoto.jpg" alt="Winston the Dog" class="dog-pic">
+  <!-- DIV 1 -->
+  <div class="section">
+    <h2>My Dog</h2>
+    <img src="winstonphoto.jpg" alt="Winston the Dog" class="dog-pic">
+  </div>
 
-  <a href="index.html">Back to Home</a>
+  <!-- DIV 2 -->
+  <div class="section">
+    <h2>Things Winston Loves</h2>
+    <ol>
+      <li>Snacks
+        <ul>
+          <li>Peanut Butter</li>
+          <li>Cheese</li>
+          <li>Chicken</li>
+        </ul>
+      </li>
+      <li>Naps</li>
+      <li>Chasing Squirrels</li>
+    </ol>
+  </div>
+
+  <!-- DIV 3 -->
+  <div class="section">
+    <h2>Funny Dog Video</h2>
+    <iframe width="300" height="180" src="https://www.youtube.com/embed/t3FwlK1xKQY" 
+            title="YouTube video player" allowfullscreen></iframe>
+  </div>
+
+  <!-- Tableau Embed -->
+  <div class="section">
+    <h2>Dog Data (Tableau)</h2>
+    <iframe src="https://public.tableau.com/views/PlaceholderChart/Sheet1"
+            width="600" height="450" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Anchor Link -->
+  <p><a href="#top">Back to Top</a></p>
+
+  <!-- Navigation -->
+  <p>
+    <a href="webapp.html">Try My AI Web App</a> |
+    <a href="index.html">Back to Home</a>
+  </p>
+
 </body>
 </html>
