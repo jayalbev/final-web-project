@@ -1,11 +1,11 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #fffdd0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
 
 .resume-box {
-  background-color: #fdf6e3; /* light cream */
+  background-color: white; 
   max-width: 800px;
   margin: auto;
   padding: 40px;
