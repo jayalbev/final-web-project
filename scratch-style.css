@@ -8,3 +8,11 @@ body {
 h1 {
   color: darkorange;
 }
+.dog-pic {
+  width: 300px;
+  border-radius: 15px;
+  border: 4px solid darkorange;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 20px auto;
+}
