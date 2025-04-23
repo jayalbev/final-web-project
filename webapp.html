@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Winston's Dog Fact Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: darkgreen;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: lightseagreen;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #fact {
+      margin-top: 30px;
+      font-size: 18px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Winston's Dog Fact Generator 🐶</h1>
+  <button onclick="showFact()">Give Me a Dog Fact</button>
+
+  <p id="fact"></p>
+
+  <br><br>
+  <a href="scratch.html">← Back to Scratch Page</a>
+
+  <script>
+    const dogFacts = [
+      "Dogs have about 1,700 taste buds. Humans have around 9,000!",
+      "The Basenji is the only barkless dog.",
+      "Winston can hear 4x better than you. Believe it.",
+      "A dog’s sense of smell is up to 100,000 times better than a human's.",
+      "Dogs’ noses are wet to help absorb scent chemicals.",
+      "Winston knows when you're sad — and cuddles accordingly."
+    ];
+
+    function showFact() {
+      const randomIndex = Math.floor(Math.random() * dogFacts.length);
+      document.getElementById("fact").textContent = dogFacts[randomIndex];
+    }
+  </script>
+
+</body>
+</html>
