@@ -33,9 +33,11 @@ ol {
 }
 
 ol ul {
-  margin-left: 10px;
+  margin-left: 1em;   /* smaller indent */
+  padding-left: 1em;
   list-style-type: disc;
 }
+
 
 
 iframe {
